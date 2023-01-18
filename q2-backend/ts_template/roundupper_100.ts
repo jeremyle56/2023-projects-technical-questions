@@ -36,7 +36,7 @@ app.post('/entity', (req, res) => {
     }
 });
 
-// lasooable returns all the space animals a space cowboy can lasso given their name
+// lassoable returns all the space animals a space cowboy can lasso given their name
 app.get('/lassoable', (req, res) => {
     try {
         const cowboyName = req.query.cowboy_name as string;
